@@ -1,22 +1,24 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-#define ll long long
-#define Yes cout<<"Yes"<<endl
-#define No cout<<"No"<<endl
-#define forlp for(int i=0;i<n;i++)
-
-void  solve()
-{
-	int n, a, b; cin >> n >> a >> b;
-	if (n == a && a == b && b == n) Yes;
-	else if (n - 1 > (a + b)) Yes;
-	else No;
-}
-
 int main() {
-	int t; cin >> t;
-	while (t--) {
-		solve();
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	int tt;
+	cin >> tt;
+	while (tt--) {
+		int n, a, b;
+		cin >> n >> a >> b;
+		if (a == n && b == n) {
+			cout << "Yes" << '\n';
+			continue;
+		}
+		if (a + b < n - 1) {
+			cout << "Yes" << '\n';
+			continue;
+		}
+		cout << "No" << '\n';
 	}
+	return 0;
 }
