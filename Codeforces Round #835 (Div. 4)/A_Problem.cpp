@@ -1,4 +1,4 @@
-// 1st method by tourist
+// 1st method 
 
 #include <bits/stdc++.h>
 using namespace std;
