@@ -11,7 +11,6 @@ using namespace std;
 #define pob pop_back()
 #define inf 1e9
 
-
 void solve() {
 
 }
