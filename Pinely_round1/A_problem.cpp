@@ -17,6 +17,5 @@ int main() {
 			continue;
 		}
 		cout << "No" << '\n';
-	}
-	return 0;
+	} return 0;
 }
