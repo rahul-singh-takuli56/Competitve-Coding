@@ -1,5 +1,4 @@
 // 1st method 
-
 #include <bits/stdc++.h>
 using namespace std;
 
